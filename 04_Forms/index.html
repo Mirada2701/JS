@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+<body>
+    <h1>What do i have in my fridge?</h1>
+    <div id="main">
+        <div class="item">
+            <img src="./images/pepper.jpg">
+            <p>Pepper</p>
+        </div>
+        <div class="item">
+            <img src="./images/apple.png">
+            <p>Apple</p>
+        </div>
+        <div class="item">
+            <img src="./images/chesse.png">
+            <p>Cheese</p>
+        </div>
+        <div class="item">
+            <img src="./images/corn.jpg">
+            <p>Corn</p>
+        </div>
+        <div class="item">
+            <img src="./images/mush.png">
+            <p>Mushroom</p>
+        </div>
+        <div class="item">
+            <img src="./images/garl.jpg">
+            <p>Garlic</p>
+        </div>
+        <div class="item">
+            <img src="./images/beef.jpg">
+            <p>Beef</p>
+        </div>
+        <div class="item">
+            <img src="./images/fish.jpg">
+            <p>Fish</p>
+        </div>
+        <div class="item">
+            <img src="./images/eggs.jpg">
+            <p>Eggs</p>
+        </div>
+    </div>
+    
+    <form name="products">
+        <fieldset>
+          <legend>Add product</legend>
+          <div>
+            <label for="exampleInputEmail1" class="form-label mt-4">Name product</label>
+            <input name="title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+            <small id="emailHelp" class="form-text text-muted">Example: Fish</small>
+          </div>
+          
+          <div>
+            <label for="exampleSelect1" class="form-label mt-4">Select type food</label>
+            <select name="type" class="form-select" id="exampleSelect1">
+              <option value="fish.jpg">Fish</option>
+              <option value="eggs.jpg">Eggs</option>
+              <option value="apple.png">Apple</option>
+            </select>
+          </div>        
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+      </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
