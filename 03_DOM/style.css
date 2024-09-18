@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+#addBlockBtn{
+    width: 80%;
+    margin: 10px 120px;
+}
+.color-block {
+    width: 120px;
+    height: 60px;
+    cursor: pointer;
+}

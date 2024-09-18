@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.main{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+button{
+    font-size: large;
+    border-radius: 10px;
+    padding: 20px;
+}
+#trafficLight{
+    display: flex;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+    height: 80px;
+    width: 250px;
+    align-items: center;
+}
+.light{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.green{background-color: green;}
+.yellow{background-color: yellow;}
+.red{background-color: red;}
+.off{background-color: gray;}
