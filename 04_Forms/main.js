@@ -11,6 +11,8 @@ form.onsubmit = (event) => {
     const title = select.value.split('.')[0];
     
     mainDiv.innerHTML += ` <div class="item">
+    mainDiv.innerHTML += ` <div class="item">
+    mainDiv.innerHTML += ` <div class="item">
             <img src="${path}">
             <p>${title}</p>
         </div>;`
